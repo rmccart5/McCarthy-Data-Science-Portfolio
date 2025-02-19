@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+# Creates title and tells user initial instructions
 st.title("Explore the Countries of the World!")
 st.write("## First, select which variable you want to filter countries by.")
 
@@ -10,7 +11,7 @@ df = pd.read_csv("basic-streamlit-app\data\countries_of_the_world.csv")
 # User selects a button, determing which filter they want to apply to the dataframe
 filter = st.radio("Select a filter",["Name", "Region", "Population","Area", "GDP ($ per capita)", "None"])
 
-
+# Depending on which button is clicked, a different slider or dropdown is presented, allowing the user to limit the dataset
 if filter == "Name":
     st.write("## Next, use the dropdown to find specific information about our world's countries.")
     name = st.selectbox("Select a Country", df["Country"].unique())
