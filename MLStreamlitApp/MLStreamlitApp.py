@@ -7,8 +7,9 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression 
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, mean_squared_error, root_mean_squared_error, r2_score
 from sklearn import tree
+from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeClassifier
 import graphviz
 
@@ -51,11 +52,11 @@ if df is not None:
     # Gives instructions to the user asking which model they want to run
     st.write("### Step 2) Select the Type of Model You Want to Look At")
     # Prompts user to select the type of model they want to run
-    modeltype = st.radio("Pick one:", ["Logistic Regression", "Decision Tree"])
+    modeltype = st.radio("Pick one:", ["Linear Regression", "Logistic Regression", "Decision Tree"])
     # Gives the user instructions to adjust the model settings
     st.write("### Step 3) Adjust Model Settings")
     # Warns the user to only select a target variable that is discrete and categorical so the model does not give an error
-    st.write("#### Disclaimer: Make sure that the target variable is a discrete, categorical variable")
+    st.write("##### Disclaimer: Make sure that the target variable is a discrete, categorical variable for Logistic Regression and Decision Tree models and a numeric variable for Linear Regression models")
     # Prompts the user to select the target variable
     target = st.selectbox("Select target variable:", df.columns)
     # Defines which variables are feature variables
@@ -66,6 +67,38 @@ if df is not None:
     y = df[target]
     # Converts feature variables to dummy variables
     X = pd.get_dummies(X, drop_first=True)
+    # What the model does if the user wants to run a linear regression model
+    if modeltype == "Linear Regression":
+        # Prompts user to select test size for model
+        usertestsize = st.slider("What should the test size be?", 0.01, 1.00, step = 0.01)
+        # Prompts user to select the random state for model
+        userrandomstate = st.slider("What should the random state be?", 0, 100)
+        # Split dataset into training and testing subsets
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = usertestsize, random_state = userrandomstate)
+        # Initializes the linear regression model
+        lin_reg = LinearRegression()
+        # Fits the linear regression model to the data
+        lin_reg.fit(X_train, y_train)
+        # Makes predictions on the test set
+        y_pred = lin_reg.predict(X_test)
+        # Calculates mean squared error for linear regression
+        mse_lin = mean_squared_error(y_test, y_pred)
+        # Displays a title for mse
+        st.write("#### Mean Squared Error:")
+        # Displays the mse score
+        st.write(mse_lin)
+        # Calculates root mean squared error for linear regression
+        rmse_lin = root_mean_squared_error(y_test, y_pred)
+        # Displays a title for rmse
+        st.write("#### Root Mean Squared Error:")
+        # Displays the rmse score
+        st.write(rmse_lin)
+        # Calculates r squared score for linear regression
+        r2_lin = r2_score(y_test, y_pred)
+        # Displays a title for r squared score
+        st.write("#### R Squared:")
+        # Displays the accuracy score
+        st.write(r2_lin)
     # What the model does if the user wants to run a logistic regression model
     if modeltype == "Logistic Regression":
         # Prompts user to select test size for model
