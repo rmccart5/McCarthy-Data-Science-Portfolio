@@ -24,4 +24,17 @@
 * While in the basic streamlit app I got familiar with data and limiting it, this project taught me how to manipulate data and clean it up
 * In real life, it is rare that you are presented with clean data, so learning how to clean messy data is super important and relevant for my data science career
 
+## Exploring Supervised Machine Learning Streamlit App 🧮
+**Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLStreamlitApp
+**Link to Public Streamlit App**: https://mccarthy-data-science-portfolio-exploringml.streamlit.app/
+### Description 📝
+* This app allows users to explore between various datasets and perform multiple machine learning models on the data
+* Users can change the models' hyperparameters and learn how these affect the models output and performance
+* The app includes various metrics and visuals, making it simple for any user to learn about machine learning
+### Significance ⭐
+* This project truly took our understanding of data science to the next level
+* Creating this app built on my previous understanding of machine learning by allowing me to apply it to real-life data
+* Additionally, experimenting with the hyperparameters and looking at their effect on the model performance allowed me to see, behind the scenes, how these complex models work
+* This complements my overall portfolio by extending my knowledge from simply analyzing data to know using it to predict outcomes and make decisions, which is crucial in real-world situations
+
 
