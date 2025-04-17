@@ -26,6 +26,7 @@
 
 ## Exploring Supervised Machine Learning Streamlit App 🧮
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLStreamlitApp
+
 **Link to Public Streamlit App**: https://mccarthy-data-science-portfolio-exploringml.streamlit.app/
 ### Description 📝
 * This app allows users to explore between various datasets and perform multiple machine learning models on the data
