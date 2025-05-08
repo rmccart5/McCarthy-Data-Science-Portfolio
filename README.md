@@ -11,7 +11,7 @@
 * **Exploring Supervised ML App**⚓- Allows the user to apply different supervised ML models to datasets and explore how changing hyperparameters affects performance
   - Link: https://mccarthy-data-science-portfolio-exploringml.streamlit.app/
  * **Exploring Unsupervised ML Processes**🚞- Allows the user to apply different unsupervised ML models to datasets, and explore how changing target variable and number of clusters affects the data's visuals
-  - Link: https://mccarthy-data-science-portfolio-mlunsupervisedapp.streamlit.app/
+   - Link: https://mccarthy-data-science-portfolio-mlunsupervisedapp.streamlit.app/
 
 ## Basic Streamlit App Project 🐍
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/basic-streamlit-app
