@@ -13,10 +13,12 @@
 
 ## Basic Streamlit App Project 🐍 
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/basic-streamlit-app 
-### Description 📝 * In this project, we used streamlit to create an app about a dataframe of our choosing 
+### Description 📝 
+* In this project, we used streamlit to create an app about a dataframe of our choosing 
 * The dataframe I used consisted of the countries of the world and included a ton of information about each one
 * I used functions to create an app that users can use to learn about various countries, filtered by specific characteristics
-### Significance ⭐ * This project was a great first project and I learned a lot about how to get more comfortable using datasets and filtering through them 
+### Significance ⭐ 
+* This project was a great first project and I learned a lot about how to get more comfortable using datasets and filtering through them 
 * I found it super interesting how you quickly I was able to maniputlate massive sets of data
 * Additionally, it allowed me to create buttons and build an app that real users can use, which was really rewarding
 
