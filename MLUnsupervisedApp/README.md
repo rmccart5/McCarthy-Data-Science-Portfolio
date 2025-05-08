@@ -30,6 +30,7 @@
   - Principal Component Analysis reduces the number of variables in a dataset while minimizing the amount of significant information lost
 * Users can also use sliders to manually change the models hyperparameters, including the target variable, feature variables, and number of clusters
   - Users can explore how each of these affects the model's output
+* The app also provides a description of each graph output, making it easier for the user to interpret the data
  
 ## Visuals📸
 ![image](https://github.com/user-attachments/assets/29693496-162b-44d2-bded-2e45ebde04d4)
