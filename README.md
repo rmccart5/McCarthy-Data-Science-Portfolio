@@ -3,6 +3,15 @@
  
  + This repository will be **organized using folders** for each assignment and will have **plenty of graphs and visualizations** so anyone who comes across this page can easily understand what I have been working on. 📊
 
+## At A Glance👁️‍🗨️
+* **Basic Streamlit App**🗺️ - Allows the user to filter a large dataset with information about the countries of the world.
+  - Link: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/basic-streamlit-app
+* **Tidy Data Project**🎖️ - Allows the user to clean up and simplify a messy dataframe about the 2008 Olympic Medalists
+  - Link: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/TidyData-Project
+* **Exploring Supervised ML App**⚓- Allows the user to apply different supervised ML models to datasets and explore how changing hyperparameters affects performance
+  - Link: https://mccarthy-data-science-portfolio-exploringml.streamlit.app/
+ * **Exploring Unsupervised ML Processes**🚞- Allows the user to apply different unsupervised ML models to datasets, and explore how changing target variable and number of clusters affects the data's visuals
+  - Link: https://mccarthy-data-science-portfolio-mlunsupervisedapp.streamlit.app/
 
 ## Basic Streamlit App Project 🐍
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/basic-streamlit-app
