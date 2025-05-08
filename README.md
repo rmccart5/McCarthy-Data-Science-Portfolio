@@ -3,6 +3,7 @@
  
  + This repository will be **organized using folders** for each assignment and will have **plenty of graphs and visualizations** so anyone who comes across this page can easily understand what I have been working on. 📊
 
+
 ## Basic Streamlit App Project 🐍
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/basic-streamlit-app
 ### Description 📝
@@ -13,6 +14,7 @@
 * This project was a great first project and I learned a lot about how to get more comfortable using datasets and filtering through them
 * I found it super interesting how you quickly I was able to maniputlate massive sets of data
 * Additionally, it allowed me to create buttons and build an app that real users can use, which was really rewarding
+
 
 ## Tidy Data Project 🧮
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/730ff9fd8085e990c569ad274ca659e44f9ff5bc/TidyData-Project
@@ -25,6 +27,7 @@
 * While in the basic streamlit app I got familiar with data and limiting it, this project taught me how to manipulate data and clean it up
 * I found it really rewarding to turn something super hard to understand into a simpler and more visually appealing product
 * In real life, it is rare that you are presented with clean data, so learning how to clean messy data is super important and relevant for my data science career
+
 
 ## Exploring Supervised Machine Learning Streamlit App 🚢
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLStreamlitApp
@@ -39,6 +42,7 @@
 * Creating this app built on my previous understanding of machine learning by allowing me to apply it to real-life data
 * Additionally, experimenting with the hyperparameters and looking at their effect on the model performance allowed me to see, behind the scenes, how these complex models work
 * This complements my overall portfolio by extending my knowledge from simply analyzing data to know using it to predict outcomes and make decisions, which is crucial in real-world situations
+
 
 ## Applying Unsupervised Machine Learning to Data Streamlit App ⏫
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLUnsupervisedApp
