@@ -11,6 +11,7 @@
 * I used functions to create an app that users can use to learn about various countries, filtered by specific characteristics
 ### Significance ⭐
 * This project was a great first project and I learned a lot about how to get more comfortable using datasets and filtering through them
+* I found it super interesting how you quickly I was able to maniputlate massive sets of data
 * Additionally, it allowed me to create buttons and build an app that real users can use, which was really rewarding
 
 ## Tidy Data Project 🧮
@@ -22,9 +23,10 @@
 ### Significance ⭐
 * This project truly builds off of our past work and complements our portfolio very well so far
 * While in the basic streamlit app I got familiar with data and limiting it, this project taught me how to manipulate data and clean it up
+* I found it really rewarding to turn something super hard to understand into a simpler and more visually appealing product
 * In real life, it is rare that you are presented with clean data, so learning how to clean messy data is super important and relevant for my data science career
 
-## Exploring Supervised Machine Learning Streamlit App 🧮
+## Exploring Supervised Machine Learning Streamlit App 🚢
 **Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLStreamlitApp
 
 **Link to Public Streamlit App**: https://mccarthy-data-science-portfolio-exploringml.streamlit.app/
@@ -37,5 +39,20 @@
 * Creating this app built on my previous understanding of machine learning by allowing me to apply it to real-life data
 * Additionally, experimenting with the hyperparameters and looking at their effect on the model performance allowed me to see, behind the scenes, how these complex models work
 * This complements my overall portfolio by extending my knowledge from simply analyzing data to know using it to predict outcomes and make decisions, which is crucial in real-world situations
+
+## Applying Unsupervised Machine Learning to Data Streamlit App ⏫
+**Link to Repository**: https://github.com/rmccart5/McCarthy-Data-Science-Portfolio/tree/main/MLUnsupervisedApp
+
+**Link to Public Streamlit App**: https://mccarthy-data-science-portfolio-mlunsupervisedapp.streamlit.app/
+### Description 📝
+* This app allows users to apply multiple unsupervised machine learning models to various datasets
+* Users have the ability to explore how changing hyperparameters affect its output and performance
+* The app provides step-by-step instructions, as well as visuals, to make it accessible for any user to learn about unsupervised machine learning
+### Significance ⭐
+* This project builds on our understanding of machine learning and exposes us to unsupervised ML models
+* Building this app made me much more comfortable with creating ML models and graphical visualizations of data
+* It also helped me improve at building an app with a layout that makes it easy for the user to understand
+* In real life, it is rare that you are provided with labeled data, so I found it fascinating how these models are able to create patterns on their own
+* This complements my overall portfolio by improving my knowledge of unsupervised machine learning and how clustering affects these models
 
 
