@@ -257,7 +257,7 @@ if df is not None:
         # Prompts the user to select the target variable
         targets = st.selectbox("Select target variable:", df.columns)
         # Prompts the user to select the feature variable
-        features = st.multiselect("Select target variable:", df.columns)
+        features = st.multiselect("Select feature variables:", df.columns)
         # Ensures that the user selects at least two feature variables so that an error does not occur
         if len(features) < 2:
             # If the user does not select at least two feature variables, a warning is displayed
